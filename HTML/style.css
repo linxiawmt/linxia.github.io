@@ -1,0 +1,76 @@
+@font-face {
+    font-family:草书;
+    src: url(YeZiGongChangZuiHanJiangXingCao-2.ttf) format('truetype');
+}
+@font-face {
+    font-family:结尾;
+    src: url(No.341-ShangShouSaTi-2.ttf) format('truetype');
+}
+
+body {
+    font-family:草书;
+    font-size: 25px;
+    margin: 10px 0;
+    font-weight:bolder;
+    font-style:normal;
+}
+
+p {
+    text-decoration:underline;
+    font-weight:bold;
+}
+.standout{
+    background:black;
+    color:white;
+    padding:5px;
+}
+.intro{
+    background-color: blue;
+    color:white
+}
+a:visited{
+    color:brown;
+}
+a:hover,a:active,a:focus{
+    color:red;
+}
+ 
+ul li:nth-child(even){
+    background:lightgray;
+}
+ul li:nth-child(odd){
+    background:lightcyan;
+}
+.author1{
+    color:white;
+    background:orangered;
+    padding:5px;
+}
+.wrapper{
+    background: radial-gradient(circle at top left,rgb(245, 243, 243),rgb(132, 128, 156),rgb(211, 62, 62));
+    margin:10px;
+    text-align: center;
+    vertical-align: text-bottom;
+    line-height:1.5em;
+    padding:10px;
+    letter-spacing: 0.1em;
+    word-spacing:0.2em;
+}
+h1,h3{
+    vertical-align:middle;
+    font-size:30px;
+    text-align:center;
+    
+}
+.author{
+   
+    background-image:url("/HTML/0df7l835.png");
+    text-align: center;
+    font-family: 结尾;
+    font-style: italic;
+    text-shadow:0px 0px 0px;
+    font-weight:lighter;
+    word-spacing: bolder;
+    font-size:25px;
+
+}
